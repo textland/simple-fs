@@ -1,0 +1,33 @@
+{
+  "name": "@textland/simple-fs",
+  "version": "1.0.0",
+  "description": "A far-too-simple filesystem for textland.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && c8 node --no-warnings test.mjs",
+    "coverage": "c8 -r html node --no-warnings test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/textland/simple-fs.git"
+  },
+  "keywords": [
+    "filesystem",
+    "simple",
+    "fake",
+    "leveldb"
+  ],
+  "author": "Bryan English <bryan@bryanenglish.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/textland/simple-fs/issues"
+  },
+  "homepage": "https://github.com/textland/simple-fs#readme",
+  "devDependencies": {
+    "c8": "^7.12.0",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "level": "^8.0.0"
+  }
+}
